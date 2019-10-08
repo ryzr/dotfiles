@@ -1,0 +1,599 @@
+2019/04/16 16:24:17 [error] 42459#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /Users/ryzr/Developer/web/arc-teamdd/vendor/itsgoingd/clockwork/Clockwork/Helpers/Serializer.php on line 97PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) in /Users/ryzr/Developer/web/arc-teamdd/vendor/symfony/debug/Exception/FatalErrorException.php on line 1" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /phila/export HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-teamdd.test", referrer: "http://localhost:3000/phila/export"
+2019/04/16 16:24:32 [error] 42460#0: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /Users/ryzr/Developer/web/arc-teamdd/vendor/itsgoingd/clockwork/Clockwork/Helpers/StackTrace.php on line 15PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) in /Users/ryzr/Developer/web/arc-teamdd/vendor/symfony/debug/Exception/FatalErrorException.php on line 1" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /phila/export HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-teamdd.test", referrer: "http://localhost:3000/phila/export"
+2019/04/17 09:37:50 [alert] 42460#0: *2162 writev() failed (41: Protocol wrong type for socket) while sending to client, client: 127.0.0.1, server: , request: "GET /races HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-teamdd.test", referrer: "http://localhost:3000/races"
+2019/04/17 11:09:41 [alert] 42460#0: *4507 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?6fe5a4331b5d67ad2772 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/races"
+2019/04/17 18:26:14 [alert] 221#0: *6601 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?1e2d321de949f75103c5 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/races/12/riders?athlete=34&stage=6"
+2019/04/18 09:21:27 [alert] 232#0: *1233 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?b3d2b6c867c420ea4baa HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/races/12/riders?athlete=31&stage=1"
+2019/04/18 16:58:43 [alert] 232#0: *9477 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?535269253ed3c2d93eae HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/races/12/riders?athlete=34&stage=1"
+2019/04/18 17:13:46 [alert] 232#0: *9688 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?c23aaa6c9fb06c99d25d HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/races/12/riders?athlete=34&stage=1"
+2019/04/19 11:15:06 [alert] 230#0: *11428 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?8c168e63a4bfe76d9d3c HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/races/23/settings"
+2019/04/19 11:35:44 [alert] 231#0: *12453 pread() read only 13193 of 13203 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?45101b641066859c859f HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/races/20/?athlete=41&stage=1"
+2019/04/19 11:58:51 [error] 231#0: *12812 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /backfillwellness HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/04/19 12:06:44 [error] 232#0: *12842 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/arc/v2/athletes/24 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/24/"
+2019/04/19 12:06:44 [error] 232#0: *12843 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/arc/v2/athletes/24/latest-wellness HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/24/"
+2019/04/19 12:06:44 [error] 232#0: *12844 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/arc/v2/athletes/24/injuries HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/24/"
+2019/04/19 12:39:50 [error] 232#0: *13260 FastCGI sent in stderr: "PHP message: PHP Fatal error:  App\Http\Resources\WellnessSummaryKeyResource::toArray(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;App\Database\WellnessSummaryKeys&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition in /Users/ryzr/Developer/web/arc-teamdd/app/Http/Resources/WellnessSummaryKeyResource.php on line 33" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/arc/v2/config HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-teamdd.test", referrer: "http://arc-teamdd.test/athletes/24/wellness"
+2019/04/19 13:00:22 [alert] 232#0: *13664 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?b068ee71ec63a26d7f2a HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/24/wellness"
+2019/04/19 13:42:43 [alert] 231#0: *15236 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?fde773c028b4a0084eb2 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/24/wellness"
+2019/04/19 13:45:51 [alert] 232#0: *15413 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?1d2b9e110b8abe96f8ca HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/24/wellness"
+2019/04/19 14:17:03 [alert] 232#0: *16748 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?dd7602e9bf80f66227f2 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/24/wellness"
+2019/04/19 14:24:51 [alert] 229#0: *17100 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?5c0a92376ebd545f011c HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/24/wellness"
+2019/04/19 14:26:29 [alert] 229#0: *17175 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?7e6fceb188ff576e0112 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/24/wellness"
+2019/04/23 10:34:40 [alert] 245#0: *4486 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?7243a50867c8260f447c HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/24/"
+2019/04/23 11:17:02 [alert] 245#0: *6514 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?cc661d1843c2d4f7da10 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/40/"
+2019/04/23 11:33:18 [alert] 245#0: *6704 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?9876b63a557fb256fde7 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/40/"
+2019/04/23 11:53:41 [alert] 245#0: *7001 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?932af38218cda5e784db HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/40/"
+2019/04/23 22:11:49 [alert] 245#0: *16840 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?d90e1dc1ed51c0e3ece1 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/races/12/?athlete=34&stage=2"
+2019/04/24 09:28:56 [alert] 245#0: *17785 sendfile() reported that "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js.map" was truncated while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js.map?8f433f668299a8f9dd3d HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/04/24 13:16:49 [alert] 245#0: *21289 sendfile() reported that "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js.map" was truncated while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js.map?7adeb0015b25817853a4 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/04/24 13:36:44 [alert] 242#0: *22055 sendfile() reported that "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js.map" was truncated while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js.map?c013e9a500e41a5e0cb7 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/04/24 13:36:51 [alert] 245#0: *22079 sendfile() reported that "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js.map" was truncated while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js.map?35e846fe95e6a4d8c3ee HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/04/24 13:53:43 [alert] 245#0: *22652 sendfile() reported that "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js.map" was truncated while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js.map?abb9317a87363a42d92d HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/04/24 15:19:11 [alert] 245#0: *23820 sendfile() reported that "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js.map" was truncated while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js.map?c36b1309281f863cb31e HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/04/24 16:39:39 [alert] 245#0: *24992 sendfile() reported that "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js.map" was truncated while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js.map?af4c0e020c64f8e2d5f3 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/04/24 16:56:10 [alert] 245#0: *25547 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?1fbd54cff3e56e6d5a1b HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/races/12/?athlete=31&stage=1"
+2019/04/26 11:10:59 [alert] 245#0: *27495 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?4f022c73224d95395de9 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/races/12?athlete=34&stage=1"
+2019/04/26 12:01:24 [alert] 242#0: *29925 writev() failed (41: Protocol wrong type for socket) while sending to client, client: 127.0.0.1, server: , request: "GET /races/13/?athlete=62&stage=summary HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/races/13/?athlete=62&stage=summary"
+2019/04/26 12:17:53 [alert] 245#0: *30627 pread() read only 19346 of 19353 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?3d1eb95ae8a154050aff HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/races/13/?athlete=42&stage=1"
+2019/04/26 13:12:25 [alert] 244#0: *31920 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?eb62b84432fc4120ebd4 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/races/16/?athlete=42&stage=1"
+2019/04/30 15:03:31 [alert] 244#0: *38771 sendfile() reported that "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js.map" was truncated while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js.map?a9953c7cf4b60b4350be HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/04/30 15:14:51 [alert] 245#0: *39044 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?c0407a101b06586c8a72 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/24/performance"
+2019/04/30 15:32:30 [alert] 245#0: *39535 sendfile() reported that "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js.map" was truncated while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js.map?8a5736e189397f245983 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/04/30 22:10:48 [alert] 244#0: *41976 pread() read only 31934 of 32293 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?e171d89c346653ebcda8 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/races/9/?athlete=61&stage=1"
+2019/05/01 07:04:15 [alert] 245#0: *43200 sendfile() reported that "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js.map" was truncated while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js.map?45a49555680fe4917d4e HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/05/01 17:41:28 [alert] 243#0: *44891 writev() failed (41: Protocol wrong type for socket) while sending to client, client: 127.0.0.1, server: , request: "GET /athletes/25/ HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/25/"
+2019/05/02 09:41:56 [alert] 245#0: *47120 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?e26eaff80f2e39ad861e HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/"
+2019/05/02 09:41:56 [alert] 245#0: *47112 sendfile() reported that "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js.map" was truncated while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js.map?e26eaff80f2e39ad861e HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/05/02 18:33:24 [alert] 245#0: *50019 pread() read only 4316 of 4356 from "/Users/ryzr/Developer/web/arc-demo/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?76e30974c1a7370b5e35 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-demo.test", referrer: "http://localhost:3002/"
+2019/05/02 19:45:30 [error] 243#0: *51663 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use Arc\Core\Database\Activity as Activity because the name is already in use in /Users/ryzr/Developer/web/arc-demo/app/Http/Controllers/Api/WorkoutController.php on line 14" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/client/meanmaxes?measurement=power&before=2019-05-02&after=2019-04-25&series=5sec HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-demo.test", referrer: "http://localhost:3000/"
+2019/05/06 09:17:06 [error] 245#0: *57040 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /api/importers/3/upload HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-crows.test", referrer: "http://localhost:3000/importers/gps-data"
+2019/05/07 13:09:56 [alert] 231#0: *1824 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?7420fb4dfd923fbafd20 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test", referrer: "http://localhost:3000/races/13/"
+2019/05/08 16:19:55 [alert] 227#0: *11205 writev() failed (41: Protocol wrong type for socket) while sending to client, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-crows.test", referrer: "http://localhost:3000/"
+2019/05/10 13:21:21 [error] 230#0: *28788 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use Arc\Core\Http\Resources\WellnessResource as WellnessResource because the name is already in use in /Users/ryzr/Developer/web/arc-crows/app/Providers/AppServiceProvider.php on line 34" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /athletes/45/ HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-crows.test", referrer: "http://localhost:3000/athletes/45/"
+2019/05/10 13:21:43 [error] 231#0: *28792 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use Arc\Core\Http\Resources\WellnessResource as WellnessResource because the name is already in use in /Users/ryzr/Developer/web/arc-crows/app/Providers/AppServiceProvider.php on line 34" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /athletes/45/ HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-crows.test", referrer: "http://localhost:3000/athletes/45/"
+2019/05/10 13:22:24 [error] 228#0: *28794 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use Arc\Core\Http\Resources\WellnessResource as WellnessResource because the name is already in use in /Users/ryzr/Developer/web/arc-crows/app/Providers/AppServiceProvider.php on line 34" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /athletes/45/ HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-crows.test", referrer: "http://localhost:3000/athletes/45/"
+2019/05/13 13:52:31 [error] 230#0: *33273 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /Users/ryzr/Developer/web/arc-crows/vendor/itsgoingd/clockwork/Clockwork/Helpers/StackTrace.php on line 15PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) in /Users/ryzr/Developer/web/arc-crows/vendor/symfony/debug/Exception/FatalErrorException.php on line 1" while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /api/importers/3/upload HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-crows.test", referrer: "http://arc-crows.test/importers/gps-data"
+2019/05/13 13:53:49 [error] 230#0: *33273 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /Users/ryzr/Developer/web/arc-crows/vendor/itsgoingd/clockwork/Clockwork/Helpers/StackTrace.php on line 15PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) in /Users/ryzr/Developer/web/arc-crows/vendor/symfony/debug/Exception/FatalErrorException.php on line 1" while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /api/importers/3/upload HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-crows.test", referrer: "http://arc-crows.test/importers/gps-data"
+2019/05/20 12:39:26 [error] 218#0: *708 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Declaration of App\Database\Scopes\FilterRacesToAssignedUsers::apply(Illuminate\Database\Eloquent\Builder $query, App\Models\Race $model) must be compatible with Illuminate\Database\Eloquent\Scope::apply(Illuminate\Database\Eloquent\Builder $builder, Illuminate\Database\Eloquent\Model $model) in /Users/ryzr/Developer/web/arc-teamdd/app/Database/Scopes/FilterRacesToAssignedUsers.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/client/races?sorting[by]=start_date&sorting[dir]=desc&page=1 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-teamdd.test", referrer: "http://localhost:3000/races"
+2019/05/20 12:54:29 [error] 218#0: *996 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use Illuminate\Database\Builder as Builder because the name is already in use in /Users/ryzr/Developer/web/arc-teamdd/app/Database/Scopes/FilterRacesToAssignedUsers.php on line 18" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/client/athletes/me/races HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-teamdd.test", referrer: "http://localhost:3000/athletes/me/"
+2019/05/20 13:04:10 [error] 218#0: *1246 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class App\Models\Race contains 3 abstract methods and must therefore be declared abstract or implement the remaining methods (Arc\Core\Database\Contracts\HasOwner::isOwnedBy, Arc\Core\Database\Contracts\HasOwner::getOwner, Arc\Core\Database\Contracts\HasOwner::getOwnerId) in /Users/ryzr/Developer/web/arc-teamdd/app/Models/Race.php on line 19" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/client/races/23 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-teamdd.test", referrer: "http://localhost:3000/races/23/riders?athlete=NaN&stage=1"
+2019/05/22 15:33:06 [alert] 233#0: *917 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-private-demo/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?f5fba223b6a24844342d HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-private-demo.test", referrer: "http://localhost:3000/"
+2019/05/22 15:35:11 [alert] 234#0: *1092 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-private-demo/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?afaf480c87ffc14e1dd8 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-private-demo.test", referrer: "http://localhost:3000/"
+2019/05/22 15:35:13 [alert] 233#0: *1099 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-private-demo/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?96c13f8ec68f5c49f33c HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-private-demo.test", referrer: "http://localhost:3000/"
+2019/05/22 15:38:26 [alert] 234#0: *1242 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-private-demo/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?066f54a1274e37c2ea97 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-private-demo.test", referrer: "http://localhost:3000/"
+2019/05/22 15:39:43 [alert] 234#0: *1355 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-private-demo/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?02f58a1646d83d84c8de HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-private-demo.test", referrer: "http://localhost:3000/"
+2019/05/22 16:31:50 [alert] 234#0: *4399 pread() read only 0 of 32768 from "/Users/ryzr/Developer/web/arc-private-demo/public/js/app.js" while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js?70855757ff964603ad63 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-private-demo.test", referrer: "http://localhost:3000/athletes/27/"
+2019/05/23 15:52:20 [alert] 234#0: *11177 sendfile() reported that "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js.map" was truncated while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js.map?918f2ecc574c860bb0ac HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/05/23 16:08:32 [alert] 234#0: *11865 sendfile() reported that "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js.map" was truncated while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js.map?24364fb8c95a5042574e HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/05/24 14:04:42 [alert] 234#0: *22235 sendfile() reported that "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js.map" was truncated while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js.map?bc24236f75f4c202297c HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/05/24 14:06:49 [alert] 234#0: *22791 sendfile() reported that "/Users/ryzr/Developer/web/arc-teamdd/public/js/app.js.map" was truncated while sending response to client, client: 127.0.0.1, server: , request: "GET /js/app.js.map?56572e382187f0d3db21 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-teamdd.test"
+2019/05/25 13:26:31 [error] 233#0: *29103 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /Users/ryzr/Developer/web/arc-crows/vendor/itsgoingd/clockwork/Clockwork/Helpers/StackTrace.php on line 15PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) in /Users/ryzr/Developer/web/arc-crows/vendor/symfony/debug/Exception/FatalErrorException.php on line 1" while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /api/importers/3/upload HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-crows.test", referrer: "http://arc-crows.localtunnel.me/importers/gps-data"
+2019/06/04 11:14:38 [error] 235#0: *1328 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Interface 'Arc\Core\Database\Interfaces\HasOwner' not found in /Users/ryzr/Developer/packages/arc/core/src/Database/Interfaces/UserInterface.php on line 33" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-teamdd.test"
+2019/06/04 11:14:48 [error] 235#0: *1328 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Declaration of Arc\Core\Database\User::checkSetLatest(string $identifier, Arc\Core\Database\HasComparableDate $model) must be compatible with Arc\Core\Database\Interfaces\UserInterface::checkSetLatest(string $identifier, Arc\Core\Database\Interfaces\HasComparableDate $model) in /Users/ryzr/Developer/packages/arc/core/src/Database/User.php on line 31" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-teamdd.test"
+2019/06/04 11:14:48 [error] 235#0: *1328 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Declaration of Arc\Core\Database\User::checkSetLatest(string $identifier, Arc\Core\Database\HasComparableDate $model) must be compatible with Arc\Core\Database\Interfaces\UserInterface::checkSetLatest(string $identifier, Arc\Core\Database\Interfaces\HasComparableDate $model) in /Users/ryzr/Developer/packages/arc/core/src/Database/User.php on line 31" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-teamdd.test"
+2019/06/04 19:27:00 [error] 232#0: *1380 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Interface 'Arc\Core\Database\Contracts\HasComparableDate' not found in /Users/ryzr/Developer/packages/arc/phila/src/Database/Interfaces/AssessmentInterface.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-teamdd.test"
+2019/06/06 09:32:50 [error] 232#0: *2314 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: HTTP_HOST in /Users/ryzr/.composer/vendor/laravel/valet/server.php on line 72PHP message: PHP Notice:  Undefined index: HTTP_HOST in /Users/ryzr/.composer/vendor/laravel/valet/cli/drivers/BasicValetDriver.php on line 53" while reading response header from upstream, client: 192.168.146.224, server: , request: "GET / HTTP/1.0", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:"
+2019/06/07 10:49:13 [error] 233#0: *2373 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Declaration of Arc\Core\Database\User::resolveUuid() must be compatible with Arc\Core\Database\Contracts\HasUuid::resolveUuid(): Ramsey\Uuid\Uuid in /Users/ryzr/Developer/packages/arc/core/src/Database/User.php on line 30" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-teamdd.test"
+2019/06/11 11:23:22 [error] 212#0: *2714 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/Users/ryzr/Developer/web/arc-crows/vendor/composer/../aws/aws-sdk-php/src/functions.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-crows/vendor/composer/autoload_real.php on line 66PHP message: PHP Fatal error:  require(): Failed opening required '/Users/ryzr/Developer/web/arc-crows/vendor/composer/../aws/aws-sdk-php/src/functions.php' (include_path='.:/usr/local/Cellar/php/7.3.3/share/php/pear') in /Users/ryzr/Developer/web/arc-crows/vendor/composer/autoload_real.php on line 66" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /athletes/35/injuries HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-crows.test"
+2019/06/11 11:23:30 [error] 212#0: *2714 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/Users/ryzr/Developer/web/arc-crows/vendor/composer/../aws/aws-sdk-php/src/functions.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-crows/vendor/composer/autoload_real.php on line 66PHP message: PHP Fatal error:  require(): Failed opening required '/Users/ryzr/Developer/web/arc-crows/vendor/composer/../aws/aws-sdk-php/src/functions.php' (include_path='.:/usr/local/Cellar/php/7.3.3/share/php/pear') in /Users/ryzr/Developer/web/arc-crows/vendor/composer/autoload_real.php on line 66" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-crows.test"
+2019/06/17 12:29:08 [error] 211#0: *7411 FastCGI sent in stderr: "PHP message: PHP Warning:  Uncaught ErrorException: require(/Users/ryzr/Developer/web/arc-field-demo/routes/webhooks.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-field-demo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:417
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-field-demo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/Users/...', '/Users/ryzr/Dev...', 417, Array)
+#1 /Users/ryzr/Developer/web/arc-field-demo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): require()
+#2 /Users/ryzr/Developer/web/arc-field-demo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(373): Illuminate\Routing\Router->loadRoutes('/Users/ryzr/Dev...')
+#3 /Users/ryzr/Developer/web/arc-field-demo/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(121): Illuminate\Routing\Router->group(Array, '/Users/ryzr/Dev...')
+#4 /Users/ryzr/Develope...PHP message: PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/Users/ryzr/Developer/web/arc-field-demo/routes/webhooks.php' (include_path='.:/usr/local/Cellar/php/7.3.3/share/php/pear') in /Users/ryzr/Developer/web/arc-field-demo/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 417" while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /webhooks/kangatech/force_test_results HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-field-demo.test"
+2019/06/17 12:45:13 [error] 212#0: *7454 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Interface 'App\Database\Interfaces\ForceTestResultsInterface' not found in /Users/ryzr/Developer/web/arc-crows/app/Database/ForceTestResult.php on line 10" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/arc/v2/config HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-crows.test", referrer: "http://arc-crows.test/"
+2019/06/17 12:45:24 [error] 212#0: *7455 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Interface 'App\Database\Interfaces\ForceTestResultsInterface' not found in /Users/ryzr/Developer/web/arc-crows/app/Database/ForceTestResult.php on line 10" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/kangatech/v1/athletes/35/monitoring?before=2019-06-17&after=2019-03-19 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-crows.test", referrer: "http://arc-crows.test/athletes/35/"
+2019/06/20 15:34:12 [error] 212#0: *11255 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class Arc\Core\Database\User contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Arc\Core\Database\Contracts\HasUuid::uuidToBytes, Arc\Core\Database\Contracts\HasUuid::bytesToUuid) in /Users/ryzr/Developer/packages/arc/core/src/Database/User.php on line 29" while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /api/arc/v2/auth/token HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-teamdd.test"
+2019/06/24 14:39:47 [error] 211#0: *11688 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'Arc\Core\Exceptions\Handler' not found in /Users/ryzr/Developer/web/arc-teamdd/app/Exceptions/Handler.php:16
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include()
+#1 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#3 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#4 /Users/ryzr/Developer/web/arc-teamdd/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('App\\Exceptions\\...')
+#5 /Users/ryzr/Developer/web/arc-teamdd/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#6 /Users/ryzr/Developer/web/arc-teamdd/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Contain...PHP message: PHP Fatal error:  Uncaught Error: Class 'Arc\Core\Exceptions\Handler' not found in /Users/ryzr/Developer/web/arc-teamdd/app/Exceptions/Handler.php:16
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include()
+#1 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#3 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#4 /Users/ryzr/Developer/web/arc-teamdd/vendor/laravel/framework/src/Illuminate/Container/Container.php(790): ReflectionClass->__construct('App\\Exceptions\\...')
+#5 /Users/ryzr/Developer/web/arc-teamdd/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#6 /Users/ryzr/Developer/web/arc-teamdd/vendor/laravel/framework/src/Illuminate/C
+2019/07/01 16:41:22 [error] 211#0: *1221 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-crows/vendor/composer/../arc/core/src/Exceptions/Handler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Except...')
+#4 /Users/ryzr/Developer/web/arc-crows/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Except...')
+#5 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(444): include('/Users/ryzr/Dev....PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-crows/vendor/composer/../arc/core/src/Exceptions/Handler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Except...')
+#4 /Users/ryzr/Developer/web/arc-crows/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Except...')
+#5 /Users/ryzr/Developer/web/arc-crows/vendor/composer/C
+2019/07/02 12:17:50 [error] 213#0: *2238 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-crows/vendor/composer/../arc/core/src/Exceptions/Handler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Except...')
+#4 /Users/ryzr/Developer/web/arc-crows/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Except...')
+#5 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(444): include('/Users/ryzr/Dev....PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-crows/vendor/composer/../arc/core/src/Exceptions/Handler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Except...')
+#4 /Users/ryzr/Developer/web/arc-crows/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Except...')
+#5 /Users/ryzr/Developer/web/arc-crows/vendor/composer/C
+2019/07/02 12:17:50 [error] 214#0: *2239 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-crows/vendor/composer/../arc/core/src/Exceptions/Handler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Except...')
+#4 /Users/ryzr/Developer/web/arc-crows/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Except...')
+#5 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(444): include('/Users/ryzr/Dev....PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-crows/vendor/composer/../arc/core/src/Exceptions/Handler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-crows/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Except...')
+#4 /Users/ryzr/Developer/web/arc-crows/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Except...')
+#5 /Users/ryzr/Developer/web/arc-crows/vendor/composer/C
+2019/07/04 16:04:01 [error] 212#0: *2677 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamdd/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamdd/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include('...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamdd/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamdd/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamdd/v
+2019/07/04 16:17:02 [error] 211#0: *2679 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamdd/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamdd/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include('...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamdd/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamdd/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamdd/v
+2019/07/04 16:18:55 [error] 212#0: *2681 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamdd/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamdd/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include('...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamdd/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamdd/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamdd/v
+2019/07/04 16:18:56 [error] 212#0: *2681 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamdd/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamdd/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include('...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamdd/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamdd/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamdd/v
+2019/07/04 16:18:57 [error] 212#0: *2681 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamdd/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamdd/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include('...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamdd/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamdd/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamdd/v
+2019/07/04 16:18:58 [error] 214#0: *2686 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamdd/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamdd/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include('...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamdd/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamdd/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamdd/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamdd/v
+2019/07/15 12:53:08 [error] 213#0: *6946 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Exceptions/Handler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Except...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Except...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/Class...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Exceptions/Handler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Except...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Except...')
+#5 /Users/ryzr/Devel
+2019/07/15 12:53:10 [error] 213#0: *6946 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Exceptions/Handler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Except...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Except...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/Class...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Exceptions/Handler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Except...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Except...')
+#5 /Users/ryzr/Devel
+2019/07/21 15:08:37 [error] 214#0: *7825 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait 'Staudenmeir\EloquentEagerLimit\HasEagerLimit' not found in /Users/ryzr/Developer/web/crypto/app/Models/Currency.php on line 9" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/holdings HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "crypto.test", referrer: "http://crypto.test/holdings"
+2019/07/31 11:57:11 [error] 220#0: *121 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/compo...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ry
+2019/07/31 11:57:11 [error] 220#0: *123 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/compo...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ry
+2019/07/31 11:58:08 [error] 218#0: *125 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/compo...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ry
+2019/07/31 11:58:16 [error] 220#0: *127 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/compo...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ry
+2019/07/31 11:58:18 [error] 219#0: *129 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/compo...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ry
+2019/07/31 11:58:55 [error] 221#0: *131 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/compo...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ry
+2019/07/31 11:58:56 [error] 221#0: *133 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/compo...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ry
+2019/07/31 11:58:57 [error] 221#0: *135 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/compo...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ry
+2019/07/31 11:59:03 [error] 221#0: *137 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/compo...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ry
+2019/07/31 11:59:05 [error] 221#0: *139 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/compo...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ry
+2019/07/31 11:59:23 [error] 218#0: *141 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/compo...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ry
+2019/07/31 11:59:30 [error] 221#0: *143 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/compo...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ry
+2019/08/02 13:01:24 [error] 221#0: *7923 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /Users/ryzr/Developer/web/arc-crows/vendor/itsgoingd/clockwork/Clockwork/Helpers/Serializer.php on line 66PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes) in /Users/ryzr/Developer/web/arc-crows/vendor/symfony/debug/Exception/FatalErrorException.php on line 1" while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /api/importers/4/upload HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-crows.test", referrer: "http://arc-crows.test/importers/skinfolds"
+2019/08/02 15:03:14 [error] 219#0: *9621 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/compo...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/r
+2019/08/02 15:03:14 [error] 221#0: *9623 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/compo...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/r
+2019/08/02 15:03:46 [error] 220#0: *9625 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/compo...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-teamkatusha/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-teamkatusha/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/r
+2019/08/08 15:47:16 [error] 226#0: *3898 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use Arc\Core\User\Commands\RemoveAvatar as RemoveAvatar because the name is already in use in /Users/ryzr/Developer/web/arc-dev/vendor/arc/core/src/User/UserServiceProvider.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test"
+2019/08/08 15:47:42 [error] 226#0: *3898 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use Arc\Core\User\Commands\RemoveAvatar as RemoveAvatar because the name is already in use in /Users/ryzr/Developer/web/arc-dev/vendor/arc/core/src/User/UserServiceProvider.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test"
+2019/08/08 15:47:44 [error] 226#0: *3898 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use Arc\Core\User\Commands\RemoveAvatar as RemoveAvatar because the name is already in use in /Users/ryzr/Developer/web/arc-dev/vendor/arc/core/src/User/UserServiceProvider.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test"
+2019/08/08 16:03:58 [error] 227#0: *4411 upstream timed out (60: Operation timed out) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/arc/v2/auth/me HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock", host: "arc-dev.test", referrer: "http://arc-dev.test/"
+2019/08/28 14:44:58 [error] 99065#0: *7992 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Declaration of Arc\Phila\Foundation\Database\BelongsToUser::getUser(): Arc\Phila\Foundation\Database\User must be compatible with Arc\Core\Foundation\Database\CommonModel::getUser(): Arc\Core\User\Database\User in /Users/ryzr/Developer/packages/arc/backend/phila/src/Assessment/Database/Assessment.php on line 20" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /assessment/8e83d7c8-25b8-4eae-b7a8-e92330269700/respond?expires=1567055523&user=8e7dfa55-8522-4961-8dd6-0c7b9d8d260d&signature=2dfa25a851004a01aaf6f6b44d37ce403b43d875c9574e78bee3ce61a761f686 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test"
+2019/08/28 14:45:10 [error] 99065#0: *7992 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Declaration of Arc\Phila\Foundation\Database\BelongsToUser::getUser(): Arc\Phila\Foundation\Database\User must be compatible with Arc\Core\Foundation\Database\CommonModel::getUser(): Arc\Core\User\Database\User in /Users/ryzr/Developer/packages/arc/backend/phila/src/Assessment/Database/Assessment.php on line 20" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /assessment/8e83d7c8-25b8-4eae-b7a8-e92330269700/respond?expires=1567055523&user=8e7dfa55-8522-4961-8dd6-0c7b9d8d260d&signature=2dfa25a851004a01aaf6f6b44d37ce403b43d875c9574e78bee3ce61a761f686 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test"
+2019/08/30 14:54:04 [alert] 99067#0: *9814 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 0.0.0.0:80
+2019/09/01 12:58:31 [error] 99065#0: *14930 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-field-demo/vendor/composer/../arc/core/src/Exceptions/Handler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Except...')
+#4 /Users/ryzr/Developer/web/arc-field-demo/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Except...')
+#5 /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader....PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-field-demo/vendor/composer/../arc/core/src/Exceptions/Handler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Except...')
+#4 /Users/ryzr/Developer/web/arc-field-demo/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Except...')
+#5 /Users/ryzr/Develope
+2019/09/01 12:58:36 [error] 99065#0: *14930 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-field-demo/vendor/composer/../arc/core/src/Exceptions/Handler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Except...')
+#4 /Users/ryzr/Developer/web/arc-field-demo/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Except...')
+#5 /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader....PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-field-demo/vendor/composer/../arc/core/src/Exceptions/Handler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-field-demo/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Except...')
+#4 /Users/ryzr/Developer/web/arc-field-demo/app/Exceptions/Handler.php(16): spl_autoload_call('Arc\\Core\\Except...')
+#5 /Users/ryzr/Develope
+2019/09/01 13:13:38 [error] 99066#0: *15172 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in /Users/ryzr/Developer/web/arc-dev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 649PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /integrations/redirect?expires=1567914195&integration_id=8e5b7f30-53c5-4b03-be54-45ba2deda248&type=athlete&user_id=8e89d1a4-bf61-41b5-8ba6-7027f010e94f&signature=bb87a945004828d53099cb93bc34b7c49fad366dc415a6b25b543c171d5b99b7 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test"
+2019/09/01 13:14:35 [error] 99066#0: *15172 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in /Users/ryzr/Developer/web/arc-dev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 649PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /integrations/redirect?expires=1567914195&integration_id=8e5b7f30-53c5-4b03-be54-45ba2deda248&type=athlete&user_id=8e89d1a4-bf61-41b5-8ba6-7027f010e94f&signature=bb87a945004828d53099cb93bc34b7c49fad366dc415a6b25b543c171d5b99b7 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test"
+2019/09/01 13:17:50 [error] 99066#0: *15187 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in /Users/ryzr/Developer/web/arc-dev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 615PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in /Users/ryzr/Developer/web/arc-dev/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php on line 134" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /integrations/redirect?expires=1567914195&integration_id=8e5b7f30-53c5-4b03-be54-45ba2deda248&type=athlete&user_id=8e89d1a4-bf61-41b5-8ba6-7027f010e94f&signature=bb87a945004828d53099cb93bc34b7c49fad366dc415a6b25b543c171d5b99b7 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test"
+2019/09/01 13:18:28 [error] 99066#0: *15187 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in /Users/ryzr/Developer/web/arc-dev/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 730PHP message: PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in Unknown on line 0" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /integrations/redirect?expires=1567914195&integration_id=8e5b7f30-53c5-4b03-be54-45ba2deda248&type=athlete&user_id=8e89d1a4-bf61-41b5-8ba6-7027f010e94f&signature=bb87a945004828d53099cb93bc34b7c49fad366dc415a6b25b543c171d5b99b7 HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test"
+2019/09/07 11:13:15 [error] 226#0: *150 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait 'Arc\Core\Database\Filters\AppliesWindows' not found in /Users/ryzr/Developer/packages/arc/backend/core/src/Wellness/Database/WellnessFilters.php on line 15" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test"
+2019/09/07 11:14:23 [error] 227#0: *152 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Trait 'Arc\Core\Database\Filters\AppliesWindows' not found in /Users/ryzr/Developer/packages/arc/backend/core/src/Wellness/Database/WellnessFilters.php on line 15" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test"
+2019/09/18 14:05:14 [error] 6560#0: *184 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /Users/ryzr/Developer/web/arc-dev/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php on line 347" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/arc/v2/training-load/latest HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test", referrer: "http://arc-dev.test/login"
+2019/09/19 15:00:49 [error] 6560#0: *337 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /Users/ryzr/Developer/web/arc-dev/vendor/itsgoingd/clockwork/Clockwork/Helpers/StackFrame.php on line 18" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/arc/v2/training-load/latest HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test", referrer: "http://arc-dev.test/login"
+2019/09/19 15:01:33 [error] 6560#0: *339 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /Users/ryzr/Developer/web/arc-dev/vendor/itsgoingd/clockwork/Clockwork/Helpers/StackFrame.php on line 23" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/arc/v2/training-load/latest HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test", referrer: "http://arc-dev.test/login"
+2019/09/19 15:02:42 [error] 6560#0: *354 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /Users/ryzr/Developer/web/arc-dev/vendor/itsgoingd/clockwork/Clockwork/Helpers/Concerns/ResolvesViewName.php on line 10" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/arc/v2/training-load/latest HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test", referrer: "http://arc-dev.test/login"
+2019/09/19 15:04:25 [error] 6560#0: *389 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /Users/ryzr/Developer/web/arc-dev/vendor/itsgoingd/clockwork/Clockwork/Helpers/StackFrame.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /api/arc/v2/training-load/latest HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test", referrer: "http://localhost:8080/login"
+2019/09/26 11:49:20 [error] 6560#0: *11677 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: 2019-09-26 00:00:00 (View: /Users/ryzr/Developer/web/arc-ca/resources/views/alerts/body.blade.php) in /Users/ryzr/Developer/web/arc-ca/storage/framework/views/750bc5fc28394ee42d7ec073ad3958590b3d62ea.php on line 0" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-ca.test"
+2019/09/28 17:06:47 [error] 6559#0: *11721 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-dev/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-dev/app/Exceptions/Handler.php(15): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(444): include('/Users/ryzr/Dev...')
+...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-dev/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-dev/app/Exceptions/Handler.php(15): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-dev/vendor/composer/Clas
+2019/09/28 17:06:53 [error] 6559#0: *11721 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-dev/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-dev/app/Exceptions/Handler.php(15): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(444): include('/Users/ryzr/Dev...')
+...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-dev/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-dev/app/Exceptions/Handler.php(15): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-dev/vendor/composer/Clas
+2019/09/28 17:07:48 [error] 6560#0: *11724 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-dev/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-dev/app/Exceptions/Handler.php(15): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(444): include('/Users/ryzr/Dev...')
+...PHP message: PHP Fatal error:  Uncaught ErrorException: include(/Users/ryzr/Developer/web/arc-dev/vendor/composer/../arc/core/src/Foundation/ExceptionHandler.php): failed to open stream: No such file or directory in /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/Users/...', '/Users/ryzr/Dev...', 444, Array)
+#1 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(444): include()
+#2 /Users/ryzr/Developer/web/arc-dev/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/ryzr/Dev...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('Arc\\Core\\Founda...')
+#4 /Users/ryzr/Developer/web/arc-dev/app/Exceptions/Handler.php(15): spl_autoload_call('Arc\\Core\\Founda...')
+#5 /Users/ryzr/Developer/web/arc-dev/vendor/composer/Clas
+2019/10/02 10:11:01 [error] 185#0: *212 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot declare class SampleValetDriver, because the name is already in use in /Users/ryzr/.config/valet/Drivers/SubdomainValetDriver.php on line 52" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test"
+2019/10/02 10:11:02 [error] 185#0: *212 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot declare class SampleValetDriver, because the name is already in use in /Users/ryzr/.config/valet/Drivers/SubdomainValetDriver.php on line 52" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "arc-dev.test", referrer: "http://arc-dev.test/"
+2019/10/02 14:09:09 [error] 16633#0: *567 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '=' in /Users/ryzr/.config/valet/Drivers/SubDirectoryLaravelValetDriver.php on line 33" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /css/15cbafc5fdb03bbda576.css HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "teamdd-v3.arc.test"
+2019/10/02 14:09:12 [error] 16633#0: *567 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '=' in /Users/ryzr/.config/valet/Drivers/SubDirectoryLaravelValetDriver.php on line 33" while reading response header from upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "teamdd-v3.arc.test"
+2019/10/06 13:08:38 [alert] 230#0: *3523 writev() failed (41: Protocol wrong type for socket) while sending to client, client: 127.0.0.1, server: , request: "GET /img/icons/trac.png HTTP/1.1", upstream: "fastcgi://unix:/Users/ryzr/.config/valet/valet.sock:", host: "crypto.test", referrer: "http://localhost:8080/holdings"

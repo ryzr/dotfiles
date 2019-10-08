@@ -1,0 +1,10 @@
+.mono/
+configstore/
+fontforge/
+gcloud/
+inkscape/
+xnconvert/
+psysh/
+yarn/
+valet/config.json
+valet/valet.sock

@@ -1,0 +1,46 @@
+function is-supported() {
+  if [ $# -eq 1 ]; then
+    if eval "$1" > /dev/null 2>&1; then 
+      exit 0
+    else
+      exit 1
+    fi
+  else
+    if eval "$1" > /dev/null 2>&1; then
+      echo -n "$2"
+    else
+      echo -n "$3"
+    fi
+  fi
+}
+
+function delkh() {
+  sed -i '' "${1}d" ~/.ssh/known_hosts
+}
+
+function caches3() {
+  local location=$1
+  local cacheDuration="${2:-604800}"
+
+  aws s3 cp s3://$location s3://$location \
+   --metadata-directive REPLACE --exclude '*' \
+   --include '*.jpeg' --include '*.jpg' \
+   --include '*.png' --include '*.gif' \
+   --include '*.css' --include '*.js' \
+   --include '*.woff' --include '*.woff2' \
+   --include '*.ttf' --include '*.otf' \
+   --cache-control "max-age=${cacheDuration}" \
+   --recursive
+}
+
+function reset_git_tags() {
+  local tag="${1:-1.0.0}"
+  git push origin --delete $tag
+  git tag --delete $tag
+  git tag $tag
+  git push origin $tag
+}
+
+function aws() {
+  aws-vault exec "${AWS_DEFAULT_PROFILE:-default}" -- /usr/local/bin/aws "$@"
+}

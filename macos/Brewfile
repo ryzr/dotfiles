@@ -1,0 +1,42 @@
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+
+brew "dockutil"
+brew "openssl"
+brew "awscli"
+brew "dnsmasq", restart_service: true
+brew "docker"
+brew "docker-machine"
+brew "gnupg"
+brew "httpie"
+brew "git"
+brew "jq"
+brew "mysql", restart_service: true
+brew "nginx", restart_service: true
+brew "php", restart_service: true
+brew "pinentry-mac"
+brew "pngquant"
+brew "redis", restart_service: true
+brew "terraform"
+brew "zsh"
+brew "zsh-completions"
+brew "schniz/tap/fnm"
+
+cask "aws-vault"
+cask "docker"
+cask "gpg-suite"
+cask "iterm2"
+cask "tableplus"
+cask "postman"
+cask "slack"
+cask "sublime-text"
+
+cask "font-lato"
+cask "font-open-sans"
+cask "font-roboto"
+cask "font-source-code-pro-for-powerline"
+cask "font-source-code-pro"
+cask "font-source-sans-pro"
+cask "font-source-serif-pro"

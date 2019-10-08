@@ -1,0 +1,15 @@
+pcsc-driver /System/Library/Frameworks/PCSC.framework/PCSC
+# card-timeout 1
+# reader-port YubiKey OTP+FIDO+CCID
+reader-port "Yubico Yubikey 4 OTP+U2F+CCID"
+# reader-port Yubico Yubikey 4 OTP U2F CCID
+# reader-port Yubico YubiKey OTP+FIDO+CCID
+# reader-port Yubico YubiKey OTP+FIDO+CCID 0
+# reader-port "Yubico Yubikey 4 OTP U2F CCID"
+# reader-port "Yubico YubiKey OTP+FIDO+CCID"
+# reader-port "Yubico YubiKey OTP+FIDO+CCID 0"
+# disable-ccid
+# shared-access
+# log-file $HOME/.gnupg/scdaemon.log.txt
+verbose
+debug-level guru

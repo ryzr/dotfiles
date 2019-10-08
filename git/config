@@ -1,0 +1,89 @@
+[user]
+	name = Ryan
+	email = ryan@luminsports.com
+        signingKey = B71745B5EEA900CD66271764F6331D21ABC6F0EB
+[http]
+        postBuffer = 524288000
+[core]
+	excludesfile = /Users/ryzr/.config/git/ignore
+[commit]
+	template = ~/.gitmessage
+        gpgSign = true
+[tag]
+        forceSignAnnotated = false
+[gpg]
+        program = /usr/local/var/homebrew/linked/gnupg/bin/gpg
+[push]
+        gpgSign = if-asked
+[log]
+        showSignature = true
+[fetch]
+        prune = true
+[rebase]
+        autosquash = true
+[include]
+        path = ~/.gitconfig.local
+[alias]
+    # big helpful info here  https://github.com/SixArm/sixarm_git_gitconfig/
+    ##
+    # One-letter aliases
+    ##
+
+    a = add                     # add - record file contents to the index.  
+    b = branch                  # branch - list, create, or delete branches.  
+    c = commit -m               # commit - record changes to the repostiory with a message.  
+    d = diff                    # diff - show changes between commits, commit and working tree, etc.  
+    e = !git diff | $EDITOR     # edit - pipe the diff output to your editor of choice.  
+    f = fetch                   # fetch - download objects and refs from another repository.  
+    g = grep                    # grep - print lines matching a pattern.  
+    l = log                     # log - show commit logs.  
+    m = merge                   # merge - join two or more development histories together.  
+    o = checkout                # checkout - update the working tree to match a branch or paths; we use "o" to mean "out".  
+    p = pull                    # pull - fetch from and merge with another repository or a local branch.  
+    r = remote                  # remote - manage set of tracked repositories.  
+    s = status                  # status - show the working tree differences. (Expert users may prefer: status -sb) 
+    w = whatchanged             # whatchanged - show logs with the differences introduced by each commit.
+
+    cl = clone
+
+    
+    ##
+    # Common mis-spellings
+    ##
+    statsu = status
+    staus = status
+    clnoe = clone
+    cloen = clone
+    
+    ##
+    # Helpful
+    ##
+    # commit - amend the tip of the current branch rather than creating a new commit.
+    amend = commit --amend
+    
+    diverges = !bash -c 'diff -u <(git rev-list --first-parent "${1}") <(git rev-list --first-parent "${2:-HEAD}") | sed -ne \"s/^ //p\" | head -1' -
+    ### log1 format: hash (branches) desc
+    log1 = log --graph --decorate --pretty=oneline --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+    ### log2 format: hash (branches) desc (when) <author> 
+    log2 = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+    #up = !sh -c 'git pull --rebase --prune && git log --pretty=format:\"%Cred%ae %Creset- %C(yellow)%s %Creset(%ar)\" HEAD@{1}..'
+    ls = ls-files
+    lsignored = ls-files --other --ignored --exclude-standard
+    undomodechange = diff --summary | grep --color 'mode change 100755 => 100644' | cut -d' ' -f7- | xargs -d'\n' chmod +x
+    undomodechange2 = diff --summary | grep --color 'mode change 100644 => 100755' | cut -d' ' -f7- | xargs -d'\n' chmod -x
+
+    snapshot = "!f () { msg=\"SNAPSHOT $(command date)\" && git stash save --quiet \"$msg\" && git stash apply --quiet \"stash@{0}\" && git stash list -n 1; }; f"
+
+    assume   = update-index --assume-unchanged
+    unassume = update-index --no-assume-unchanged
+    assumed  = "!git ls-files -v | grep ^h | cut -c 3-"
+
+    ours   = "!f() { git checkout --ours $@ && git add $@; }; f"
+    theirs = "!f() { git checkout --theirs $@ && git add $@; }; f"
+
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
