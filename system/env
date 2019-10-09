@@ -8,7 +8,7 @@ export EDITOR="$VISUAL"
 export ZSH="/Users/$USER/.oh-my-zsh"
 
 export REACT_EDITOR=webstorm
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:$HOME/.composer/vendor/bin"
+export PATH="$HOME/.config/system/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:$HOME/.composer/vendor/bin"
 export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 export ANDROID_HOME="/usr/local/share/android-sdk"
 

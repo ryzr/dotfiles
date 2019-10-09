@@ -40,7 +40,3 @@ function reset_git_tags() {
   git tag $tag
   git push origin $tag
 }
-
-function aws() {
-  aws-vault exec "${AWS_DEFAULT_PROFILE:-default}" -- /usr/local/bin/aws "$@"
-}
