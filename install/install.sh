@@ -14,12 +14,15 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   echo "Adjusting macOS dock"
   . "$DOTFILES_DIR/macos/dock.sh"
 
-  echo "Installing composer"
-  curl -sS https://getcomposer.org/installer | php
-  mv composer.phar /usr/local/bin/composer
-  /usr/local/bin/composer global require hirak/prestissimo laravel/installer laravel/valet friendsofphp/php-cs-fixer  
+  if ! [ -x "$(command -v git)" ]; then
+    echo "Installing composer"
+    curl -sS https://getcomposer.org/installer | php
+    mv composer.phar /usr/local/bin/composer
+    /usr/local/bin/composer global require hirak/prestissimo laravel/installer laravel/valet friendsofphp/php-cs-fixer  
+  fi
 
   ~/.composer/vendor/bin/valet install
+
 else
   echo "Installing zsh"
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
