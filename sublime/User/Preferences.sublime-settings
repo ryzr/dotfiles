@@ -1,7 +1,7 @@
 {
-	"font_face": "Fira Code Regular",
-    "font_size": 14,
 	"color_scheme": "Packages/ayu/ayu-mirage.sublime-color-scheme",
+	"font_face": "Fira Code Regular",
+	"font_size": 14,
 	"ignored_packages":
 	[
 		"Vintage"

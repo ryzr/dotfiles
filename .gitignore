@@ -6,6 +6,12 @@ inkscape/
 xnconvert/
 psysh/
 yarn/
+sublime/*
+!sublime/User/
+sublime/User/Package\ Control.cache/
+sublime/User/Package\ Control.last-run
+!sublime/Preferences.sublime-settings
+!sublime/Package\ Control.sublime-settings
 valet/config.json
 valet/valet.sock
 valet/Log/*

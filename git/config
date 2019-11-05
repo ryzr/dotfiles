@@ -5,7 +5,7 @@
 [http]
         postBuffer = 524288000
 [core]
-	excludesfile = /Users/ryzr/.config/git/ignore
+	excludesfile = ~/.gitignore
 	preloadindex = true
 	fscache = true
 [commit]
