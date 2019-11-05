@@ -18,6 +18,8 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   curl -sS https://getcomposer.org/installer | php
   mv composer.phar /usr/local/bin/composer
   /usr/local/bin/composer global require hirak/prestissimo laravel/installer laravel/valet friendsofphp/php-cs-fixer  
+
+  ~/.composer/vendor/bin/valet install
 else
   echo "Installing zsh"
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

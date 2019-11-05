@@ -3,18 +3,22 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 
-brew "dockutil"
-brew "openssl"
+brew "android-sdk"
+brew "android-ndk"
 brew "awscli"
 brew "dnsmasq", restart_service: true
 brew "docker"
 brew "docker-machine"
-brew "gnupg"
-brew "httpie"
+brew "dockutil"
 brew "git"
+brew "gnupg"
+brew "gradle"
+brew "httpie"
 brew "jq"
+brew "maven"
 brew "mysql", restart_service: true
 brew "nginx", restart_service: true
+brew "openssl"                                                                                                                                 13:39 
 brew "php", restart_service: true
 brew "pinentry-mac"
 brew "pngquant"
