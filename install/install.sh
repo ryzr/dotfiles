@@ -4,8 +4,11 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   echo "Updating macOS defaults..."
   . "$DOTFILES_DIR/macos/defaults.sh"
 
-  echo "Installing Brew + applications..."
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+  if ! [ -x "$(command -v brew)" ]; then
+    echo "Installing Brew + applications..."
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  fi
 
   brew update
   brew tap homebrew/bundle
@@ -14,7 +17,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   echo "Adjusting macOS dock"
   . "$DOTFILES_DIR/macos/dock.sh"
 
-  if ! [ -x "$(command -v git)" ]; then
+  if ! [ -x "$(command -v composer)" ]; then
     echo "Installing composer"
     curl -sS https://getcomposer.org/installer | php
     mv composer.phar /usr/local/bin/composer
