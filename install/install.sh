@@ -9,7 +9,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 
   brew update
   brew tap homebrew/bundle
-  brew bundle --file="$(DOTFILES_DIR)/macos/Brewfile"
+  brew bundle --file="$DOTFILES_DIR/macos/Brewfile"
 
   echo "Adjusting macOS dock"
   . "$DOTFILES_DIR/macos/dock.sh"

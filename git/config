@@ -1,11 +1,13 @@
 [user]
 	name = Ryan
 	email = ryan@luminsports.com
-        signingKey = B71745B5EEA900CD66271764F6331D21ABC6F0EB
+        signingKey = 41FE1E882B2FD710
 [http]
         postBuffer = 524288000
 [core]
 	excludesfile = /Users/ryzr/.config/git/ignore
+	preloadindex = true
+	fscache = true
 [commit]
 	template = ~/.gitmessage
         gpgSign = true
@@ -87,3 +89,5 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[gc]
+	auto = 256

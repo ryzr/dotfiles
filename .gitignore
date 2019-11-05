@@ -8,3 +8,4 @@ psysh/
 yarn/
 valet/config.json
 valet/valet.sock
+valet/Log/*
