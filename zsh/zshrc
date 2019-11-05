@@ -86,7 +86,7 @@ source $ZSH/oh-my-zsh.sh
 source $DOTFILES_DIR/system/function
 source $DOTFILES_DIR/system/alias
 
-eval "$(fnm env --multi)"
+eval "`fnm env --multi`"
 
 for config ($DOTFILES_DIR/zsh/.zsh/*.zsh) source $config
 

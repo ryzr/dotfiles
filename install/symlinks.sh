@@ -9,4 +9,5 @@ ln -sfv "$DOTFILES_DIR/gnupg/scdaemon" ~/.gnupg/scdaemon.conf
 ln -sfv "$DOTFILES_DIR/zsh/zshrc" ~/.zshrc
 ln -sfv "$DOTFILES_DIR/mysql/my.cnf" ~/.my.cnf
 ln -sfv "$DOFTFILES_DIR/vim/vimrc" ~/.vimrc
-ln -sfv "$DOTFILES_DIR/sublime" ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+rm -r "$HOME/Library/Application Support/Sublime Text 3/Packages"
+ln -sfv "$DOTFILES_DIR/sublime" ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
