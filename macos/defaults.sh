@@ -155,6 +155,7 @@ defaults write com.apple.screencapture type -string "png"
 
 # Disable shadow in screenshots
 defaults write com.apple.screencapture disable-shadow -bool true
+defaults write com.apple.screencapture location ~/Pictures/Screenshots
 
 # Enable subpixel font rendering on non-Apple LCDs
 defaults write NSGlobalDomain AppleFontSmoothing -int 2
@@ -385,6 +386,40 @@ defaults write com.apple.commerce AutoUpdate -bool true
 
 # Allow the App Store to reboot machine on macOS updates
 defaults write com.apple.commerce AutoUpdateRestartRequired -bool true
+
+# Increase max system limits
+sudo nvram boot-args="serverperfmode=1 $(nvram boot-args 2>/dev/null | cut -f 2-)"
+sudo sysctl -w kern.maxfiles=65536
+sudo sysctl -w kern.maxfilesperproc=65536
+ulimit -n 65536 65536
+
+sudo /usr/libexec/PlistBuddy /Library/LaunchAgents/com.launchd.maxfiles.plist \
+-c "add Label string com.launchd.maxfiles" \
+-c "add ProgramArguments array" \
+-c "add ProgramArguments: string launchctl" \
+-c "add ProgramArguments: string limit" \
+-c "add ProgramArguments: string maxfiles" \
+-c "add ProgramArguments: string 10240" \
+-c "add ProgramArguments: string unlimited" \
+-c "add RunAtLoad bool true"
+
+sudo /usr/libexec/PlistBuddy /Library/LaunchAgents/com.launchd.maxproc.plist \
+-c "add Label string com.launchd.maxproc" \
+-c "add ProgramArguments array" \
+-c "add ProgramArguments: string launchctl" \
+-c "add ProgramArguments: string limit" \
+-c "add ProgramArguments: string maxproc" \
+-c "add ProgramArguments: string 2000" \
+-c "add ProgramArguments: string unlimited" \
+-c "add RunAtLoad bool true"
+
+sudo /usr/libexec/PlistBuddy /Library/LaunchAgents/com.kern.maxfiles.plist \
+-c "add Label string com.kern.maxfiles" \
+-c "add ProgramArguments array" \
+-c "add ProgramArguments: string sysctl" \
+-c "add ProgramArguments: string -w" \
+-c "add ProgramArguments: string kern.maxfiles=20480" \
+-c "add RunAtLoad bool true"
 
 ###############################################################################
 # Kill affected applications                                                  #

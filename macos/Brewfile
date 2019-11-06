@@ -21,11 +21,13 @@ brew "pinentry-mac"
 brew "pngquant"
 brew "redis", restart_service: true
 brew "terraform"
+brew "watchman"
 brew "zsh"
 brew "zsh-completions"
 brew "schniz/tap/fnm"
 
 cask "adoptopenjdk"
+cask "adoptopenjdk8"
 cask "aws-vault"
 cask "android-sdk"
 cask "android-ndk"

@@ -91,7 +91,11 @@ eval "`fnm env --multi`"
 for config ($DOTFILES_DIR/zsh/.zsh/*.zsh) source $config
 
 # Local config
-[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+if [[ -f ~/.zshrc.local ]] then
+  source ~/.zshrc.local
+fi
 
 # aliases
-[[ -f ~/.aliases ]] && source ~/.aliases
+if [[ -f ~/.aliases ]] then
+  source ~/.aliases
+fi

@@ -1,3 +1,6 @@
+ulimit -Sn 4096      # Increase open files.
+ulimit -Sl unlimited # Increase max locked memory.
+
 export DOTFILES_DIR="$HOME/.config"
 export TERM="xterm-256color"
 
@@ -11,6 +14,8 @@ export REACT_EDITOR=webstorm
 
 export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 export ANDROID_HOME="/usr/local/share/android-sdk"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home"
+
 export PATH="$ANDROID_SDK_ROOT/emulator:$HOME/.config/system/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:$HOME/.composer/vendor/bin:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/build-tools/$(ls $ANDROID_HOME/build-tools | sort | tail -1)"
 
 # The next line updates PATH for the Google Cloud SDK.
