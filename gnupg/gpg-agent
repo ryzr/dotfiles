@@ -1,7 +1,7 @@
 default-cache-ttl 60
 max-cache-ttl 120
 enable-ssh-support
-# use-standard-socket
+use-standard-socket
 pinentry-program /usr/local/bin/pinentry-mac
 scdaemon-program /usr/local/var/homebrew/linked/gnupg/libexec/scdaemon
 # scdaemon-program /usr/local/MacGPG2/libexec/scdaemon

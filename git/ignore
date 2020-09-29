@@ -91,6 +91,8 @@ crashlytics-build.properties
 *.tmPreferences.cache
 *.stTheme.cache
 
+.vscode
+
 # workspace files are user-specific
 *.sublime-workspace
 

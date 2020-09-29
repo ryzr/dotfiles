@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -euo pipefail
+LIST=`ykman oath list`
+SELECTED=${1:-`echo "$LIST" | fzf`}
+CODE=`ykman oath code --single "$SELECTED"`
+echo $CODE | tr -d '\n' | pbcopy
+echo $CODE
+

@@ -41,3 +41,7 @@ alias ipl="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([
 
 # Autocorrect overrides
 alias terraform="nocorrect terraform"
+
+alias ssh-tor='ssh -o "ProxyCommand nc -X 5 -x 127.0.0.1:9050 %h %p"'
+alias artisan="php artisan"
+alias nah="git reset --hard && git clean -df"

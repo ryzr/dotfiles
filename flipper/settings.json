@@ -1,0 +1,24 @@
+{
+  "androidHome": "/opt/android_sdk",
+  "enableAndroid": true,
+  "enableIOS": true,
+  "enablePrefetching": 2,
+  "jsApps": {
+    "webAppLauncher": {
+      "url": "http://localhost:8888",
+      "height": 600,
+      "width": 800
+    }
+  },
+  "reactNative": {
+    "shortcuts": {
+      "enabled": false,
+      "reload": "Alt+Shift+R",
+      "openDevMenu": "Alt+Shift+D"
+    }
+  },
+  "_persist": {
+    "version": -1,
+    "rehydrated": true
+  }
+}

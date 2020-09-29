@@ -28,7 +28,7 @@ defaults write NSGlobalDomain AppleMetricUnits -bool true
 sudo systemsetup -settimezone "Australia/Adelaide" > /dev/null
 
 # Set standby delay to 24 hours (default is 1 hour)
-sudo pmset -a standbydelay 86400
+sudo pmset -a standbydelay 7200
 
 # Disable Sudden Motion Sensor
 sudo pmset -a sms 0

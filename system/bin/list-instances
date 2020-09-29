@@ -1,0 +1,2 @@
+#!/bin/bash
+AWS_PAGER="" aws ec2 describe-instances --query 'Reservations[].Instances[].{Name:Tags[?Key==`Name`].Value | [0],InstanceId:InstanceId,PublicIp:PublicIpAddress,PrivateIp:PrivateIpAddress,LaunchTime:LaunchTime} | sort_by(@,&not_null(Name,``))' --output table --region ${1:-ap-southeast-2}

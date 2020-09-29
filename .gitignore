@@ -1,4 +1,7 @@
 .mono/
+alfred/Alfred.alfredpreferences/workflows/*
+alfred/Alfred.alfredpreferences/themes/*
+alfred/Alfred.alfredpreferences/remote/*
 configstore/
 fontforge/
 gcloud/
@@ -14,4 +17,8 @@ sublime/User/Package\ Control.last-run
 !sublime/Package\ Control.sublime-settings
 valet/config.json
 valet/valet.sock
+valet/CA/*
+valet/Certificates/*
 valet/Log/*
+valet/Sites/*
+system/secrets

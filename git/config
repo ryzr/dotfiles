@@ -1,7 +1,7 @@
 [user]
 	name = Ryan Brereton-Canham
 	email = ryan@luminsports.com
-        signingKey = 41FE1E882B2FD710
+	signingkey = 3ABBE67505802EF7E22E94F441FE1E882B2FD710
 [http]
         postBuffer = 524288000
 [core]
@@ -18,7 +18,7 @@
 [push]
         gpgSign = if-asked
 [log]
-        showSignature = true
+        sshowSignature = true
 [fetch]
         prune = true
 [rebase]

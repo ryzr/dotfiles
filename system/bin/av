@@ -1,2 +1,3 @@
 #!/bin/bash
-exec aws-vault exec "${AWS_DEFAULT_PROFILE:-default}" -- "$@"
+exec aws-vault exec "${AWS_DEFAULT_PROFILE:-ryan}" --prompt ykman -- "$@"
+#exec aws-vault exec --mfa-token $(ykman oath code --single "AWS/Ryan") "${AWS_DEFAULT_PROFILE:-default}" -- "$@"
